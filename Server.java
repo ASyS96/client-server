@@ -12,7 +12,7 @@
  *       CTRL-C in interactive shell if the server is not running in the
  *       background.
  *
- * Err : Any IO failure with triggers the IOException with exit
+ * Err : Any IO failure triggers the IOException with exit
  *       code 1.
  */
 import java.net.*;
