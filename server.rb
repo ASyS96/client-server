@@ -2,7 +2,7 @@
 =begin
 Auth: ASyS
 
-File: server.c
+File: server.rb
 
 Desc: Simple server that takes PORT_NUMBER as the only argument. The port
       number is then associated with its socket descriptor and later listen
