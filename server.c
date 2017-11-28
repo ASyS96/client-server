@@ -31,7 +31,7 @@ int main(int args, char **argv)
 {
     int ssockd;//Server socket descriptor
 
-    if((ssockd = socket(AF_INET, SOCK_STREAM, 0)) == 1) {
+    if((ssockd = socket(AF_INET, SOCK_STREAM, 0)) == -1) {
 	fprintf(stderr, "Socket creation failed\n");
 	return 1;
     }
